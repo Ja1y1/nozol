@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69450B1B2AD5D06800B3FF22 /* choiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B1A2AD5D06800B3FF22 /* choiceView.swift */; };
+		69776C8B2AD7581100D2FF5C /* designersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C8A2AD7581100D2FF5C /* designersView.swift */; };
+		69A713192AC0FFF5002C395A /* nozolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713182AC0FFF5002C395A /* nozolApp.swift */; };
+		69A7131B2AC0FFF5002C395A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7131A2AC0FFF5002C395A /* ContentView.swift */; };
+		69A7131D2AC0FFF6002C395A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A7131C2AC0FFF6002C395A /* Assets.xcassets */; };
+		69A713212AC0FFF6002C395A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A713202AC0FFF6002C395A /* Preview Assets.xcassets */; };
+		69A7132B2AC0FFF6002C395A /* nozolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7132A2AC0FFF6002C395A /* nozolTests.swift */; };
+		69A713352AC0FFF6002C395A /* nozolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713342AC0FFF6002C395A /* nozolUITests.swift */; };
+		69A713372AC0FFF6002C395A /* nozolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713362AC0FFF6002C395A /* nozolUITestsLaunchTests.swift */; };
+		69A713802AC2120A002C395A /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7137F2AC2120A002C395A /* welcomeView.swift */; };
+		69A713832AC2D28F002C395A /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713822AC2D28F002C395A /* searchView.swift */; };
+		69A713872AC4B5D9002C395A /* ArchitectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713862AC4B5D9002C395A /* ArchitectView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69A713272AC0FFF6002C395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A7130D2AC0FFF5002C395A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A713142AC0FFF5002C395A;
+			remoteInfo = nozol;
+		};
+		69A713312AC0FFF6002C395A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69A7130D2AC0FFF5002C395A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A713142AC0FFF5002C395A;
+			remoteInfo = nozol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69450B1A2AD5D06800B3FF22 /* choiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceView.swift; sourceTree = "<group>"; };
+		69776C8A2AD7581100D2FF5C /* designersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designersView.swift; sourceTree = "<group>"; };
+		69A713152AC0FFF5002C395A /* nozol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nozol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A713182AC0FFF5002C395A /* nozolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolApp.swift; sourceTree = "<group>"; };
+		69A7131A2AC0FFF5002C395A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69A7131C2AC0FFF6002C395A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A7131E2AC0FFF6002C395A /* nozol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = nozol.entitlements; sourceTree = "<group>"; };
+		69A713202AC0FFF6002C395A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		69A713262AC0FFF6002C395A /* nozolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nozolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A7132A2AC0FFF6002C395A /* nozolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolTests.swift; sourceTree = "<group>"; };
+		69A713302AC0FFF6002C395A /* nozolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nozolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A713342AC0FFF6002C395A /* nozolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolUITests.swift; sourceTree = "<group>"; };
+		69A713362AC0FFF6002C395A /* nozolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69A7137F2AC2120A002C395A /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		69A713822AC2D28F002C395A /* searchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
+		69A713862AC4B5D9002C395A /* ArchitectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A713122AC0FFF5002C395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A713232AC0FFF6002C395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7132D2AC0FFF6002C395A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A7130C2AC0FFF5002C395A = {
+			isa = PBXGroup;
+			children = (
+				69A713172AC0FFF5002C395A /* nozol */,
+				69A713292AC0FFF6002C395A /* nozolTests */,
+				69A713332AC0FFF6002C395A /* nozolUITests */,
+				69A713162AC0FFF5002C395A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A713162AC0FFF5002C395A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A713152AC0FFF5002C395A /* nozol.app */,
+				69A713262AC0FFF6002C395A /* nozolTests.xctest */,
+				69A713302AC0FFF6002C395A /* nozolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A713172AC0FFF5002C395A /* nozol */ = {
+			isa = PBXGroup;
+			children = (
+				69A713812AC21216002C395A /* View */,
+				69A713182AC0FFF5002C395A /* nozolApp.swift */,
+				69A7131C2AC0FFF6002C395A /* Assets.xcassets */,
+				69A7131E2AC0FFF6002C395A /* nozol.entitlements */,
+				69A7131F2AC0FFF6002C395A /* Preview Content */,
+			);
+			path = nozol;
+			sourceTree = "<group>";
+		};
+		69A7131F2AC0FFF6002C395A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69A713202AC0FFF6002C395A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		69A713292AC0FFF6002C395A /* nozolTests */ = {
+			isa = PBXGroup;
+			children = (
+				69A7132A2AC0FFF6002C395A /* nozolTests.swift */,
+			);
+			path = nozolTests;
+			sourceTree = "<group>";
+		};
+		69A713332AC0FFF6002C395A /* nozolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69A713342AC0FFF6002C395A /* nozolUITests.swift */,
+				69A713362AC0FFF6002C395A /* nozolUITestsLaunchTests.swift */,
+			);
+			path = nozolUITests;
+			sourceTree = "<group>";
+		};
+		69A713812AC21216002C395A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69A7131A2AC0FFF5002C395A /* ContentView.swift */,
+				69A7137F2AC2120A002C395A /* welcomeView.swift */,
+				69A713822AC2D28F002C395A /* searchView.swift */,
+				69A713862AC4B5D9002C395A /* ArchitectView.swift */,
+				69450B1A2AD5D06800B3FF22 /* choiceView.swift */,
+				69776C8A2AD7581100D2FF5C /* designersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A713142AC0FFF5002C395A /* nozol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A7133A2AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozol" */;
+			buildPhases = (
+				69A713112AC0FFF5002C395A /* Sources */,
+				69A713122AC0FFF5002C395A /* Frameworks */,
+				69A713132AC0FFF5002C395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nozol;
+			productName = nozol;
+			productReference = 69A713152AC0FFF5002C395A /* nozol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69A713252AC0FFF6002C395A /* nozolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A7133D2AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozolTests" */;
+			buildPhases = (
+				69A713222AC0FFF6002C395A /* Sources */,
+				69A713232AC0FFF6002C395A /* Frameworks */,
+				69A713242AC0FFF6002C395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A713282AC0FFF6002C395A /* PBXTargetDependency */,
+			);
+			name = nozolTests;
+			productName = nozolTests;
+			productReference = 69A713262AC0FFF6002C395A /* nozolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69A7132F2AC0FFF6002C395A /* nozolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A713402AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozolUITests" */;
+			buildPhases = (
+				69A7132C2AC0FFF6002C395A /* Sources */,
+				69A7132D2AC0FFF6002C395A /* Frameworks */,
+				69A7132E2AC0FFF6002C395A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A713322AC0FFF6002C395A /* PBXTargetDependency */,
+			);
+			name = nozolUITests;
+			productName = nozolUITests;
+			productReference = 69A713302AC0FFF6002C395A /* nozolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A7130D2AC0FFF5002C395A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					69A713142AC0FFF5002C395A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					69A713252AC0FFF6002C395A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 69A713142AC0FFF5002C395A;
+					};
+					69A7132F2AC0FFF6002C395A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 69A713142AC0FFF5002C395A;
+					};
+				};
+			};
+			buildConfigurationList = 69A713102AC0FFF5002C395A /* Build configuration list for PBXProject "nozol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A7130C2AC0FFF5002C395A;
+			productRefGroup = 69A713162AC0FFF5002C395A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A713142AC0FFF5002C395A /* nozol */,
+				69A713252AC0FFF6002C395A /* nozolTests */,
+				69A7132F2AC0FFF6002C395A /* nozolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A713132AC0FFF5002C395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A713212AC0FFF6002C395A /* Preview Assets.xcassets in Resources */,
+				69A7131D2AC0FFF6002C395A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A713242AC0FFF6002C395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7132E2AC0FFF6002C395A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A713112AC0FFF5002C395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69450B1B2AD5D06800B3FF22 /* choiceView.swift in Sources */,
+				69776C8B2AD7581100D2FF5C /* designersView.swift in Sources */,
+				69A713832AC2D28F002C395A /* searchView.swift in Sources */,
+				69A7131B2AC0FFF5002C395A /* ContentView.swift in Sources */,
+				69A713192AC0FFF5002C395A /* nozolApp.swift in Sources */,
+				69A713872AC4B5D9002C395A /* ArchitectView.swift in Sources */,
+				69A713802AC2120A002C395A /* welcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A713222AC0FFF6002C395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A7132B2AC0FFF6002C395A /* nozolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A7132C2AC0FFF6002C395A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A713352AC0FFF6002C395A /* nozolUITests.swift in Sources */,
+				69A713372AC0FFF6002C395A /* nozolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A713282AC0FFF6002C395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A713142AC0FFF5002C395A /* nozol */;
+			targetProxy = 69A713272AC0FFF6002C395A /* PBXContainerItemProxy */;
+		};
+		69A713322AC0FFF6002C395A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69A713142AC0FFF5002C395A /* nozol */;
+			targetProxy = 69A713312AC0FFF6002C395A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		69A713382AC0FFF6002C395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69A713392AC0FFF6002C395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		69A7133B2AC0FFF6002C395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nozol/nozol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nozol/Preview Content\"";
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69A7133C2AC0FFF6002C395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = nozol/nozol.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nozol/Preview Content\"";
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69A7133E2AC0FFF6002C395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nozol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nozol";
+			};
+			name = Debug;
+		};
+		69A7133F2AC0FFF6002C395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nozol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nozol";
+			};
+			name = Release;
+		};
+		69A713412AC0FFF6002C395A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nozol;
+			};
+			name = Debug;
+		};
+		69A713422AC0FFF6002C395A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8GG63L5X3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nozol.nozolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nozol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A713102AC0FFF5002C395A /* Build configuration list for PBXProject "nozol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A713382AC0FFF6002C395A /* Debug */,
+				69A713392AC0FFF6002C395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A7133A2AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A7133B2AC0FFF6002C395A /* Debug */,
+				69A7133C2AC0FFF6002C395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A7133D2AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A7133E2AC0FFF6002C395A /* Debug */,
+				69A7133F2AC0FFF6002C395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A713402AC0FFF6002C395A /* Build configuration list for PBXNativeTarget "nozolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A713412AC0FFF6002C395A /* Debug */,
+				69A713422AC0FFF6002C395A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A7130D2AC0FFF5002C395A /* Project object */;
+}
