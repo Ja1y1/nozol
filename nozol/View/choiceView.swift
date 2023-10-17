@@ -15,56 +15,49 @@ struct choiceView: View {
     var body: some View {
         
         //NavigationStack{
-            
         
+        NavigationView{
         
         ZStack{
-            
-            
             Color(.white)
             VStack(alignment:.listRowSeparatorLeading, spacing: 20){
-           
+          
                 Text("Choose what you need:")
                     .font(.title)
                     .padding([.top, .leading])
-               
+                
                 ScrollView{
                     
-                    Button("Designers"){
-                        //                TODO: any action to be added
-                        isPressed.toggle()
-                        
-                        isPressed = true
-                    }.fullScreenCover(isPresented: $isPressed , content: designersView.init)
-                        .foregroundColor(.black)
-                        .frame(width: 300, height: 200)
-                        .background(Color.white)
-                        .cornerRadius(10)
-                        .font(.system(size: 20))
-           
+                    NavigationLink(destination: designersView()) {
+                        Text("Interior Designer")
+                            .foregroundColor(.black)
+                            .frame(width: 300, height: 200)
+                            .background(Color.white)
+                            .cornerRadius(10)
+                            .font(.system(size: 20))
+                    }
                     
-                    Button("Architect"){
-                        //                TODO: any action to be added
-                        
-                        isPressed = true
-                        isPressed.toggle()
-                        isPressed2.toggle()
-                    }.fullScreenCover(isPresented: $isPressed2 , content: ArchitectView.init)
-                        .foregroundColor(.black)
-                        .frame(width: 300, height: 200)
-                        .background(Color.white)
-                        .cornerRadius(10)
-                        .font(.system(size: 20))
+                    
+                    NavigationLink(destination: ArchitectView()) {
+                        Text("Architect")
+                            .foregroundColor(.black)
+                            .frame(width: 300, height: 200)
+                            .background(Color.white)
+                            .cornerRadius(10)
+                            .font(.system(size: 20))
+                    }
+                    
                     
                 }.frame(maxHeight: .infinity)
                     .listStyle(.inset)
-                .padding()
-               
+                    .padding()
+                
                 
             } .padding(50)
                 .background(Color(.systemGray6))
-           
-        } 
+            
+        }
+    }
         //}.searchable(text: $searchText, isPresented: $searchIsActive)
 
         .ignoresSafeArea(.all)

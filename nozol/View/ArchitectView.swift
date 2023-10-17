@@ -9,20 +9,22 @@ import SwiftUI
 
 struct ArchitectView: View {
     var body: some View {
-        
+        NavigationView {
         ZStack{
             Color(.white)
             VStack(alignment:.listRowSeparatorLeading){
-            Text("Architect")
-                .font(.title)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-            
-            
-            
-                .multilineTextAlignment(.center)
-                .frame(width: 350, alignment: .topLeading)
-                .padding()
-            
+                Spacer()
+                Spacer()
+                Text("Architect")
+                    .font(.title)
+                    .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                
+                
+                
+                    .multilineTextAlignment(.center)
+                    .frame(width: 350, alignment: .topLeading)
+                    .padding()
+                
                 ScrollView {
                     
                     Text("hello")
@@ -32,21 +34,21 @@ struct ArchitectView: View {
                         .padding()
                         .background(Color.white)
                         .cornerRadius(10)
-               
+                    
                     
                     Text("hello")
                     
                         .frame(width: 325, height: 150)
-                       
+                    
                         .padding()
                         .background(Color.white)
                         .cornerRadius(10)
-                 
+                    
                     
                     Text("hello")
                     
                         .frame(width: 325, height: 150)
-                       
+                    
                         .padding()
                         .background(Color.white)
                         .cornerRadius(10)
@@ -57,9 +59,9 @@ struct ArchitectView: View {
                 
             }.padding(50)
                 .background(Color(.systemGray6))
-          
+            
         }.ignoresSafeArea(.all)
-        
+    }
     }
 }
 

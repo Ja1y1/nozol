@@ -20,7 +20,7 @@ struct ContentView: View {
                     .imageScale(.large)
                     .foregroundStyle(.tint)
                 Text("welcome to Nozol")
-                
+                    .padding()
                 Text("اللهم اجعله منزلاً مباركاً")
                     .padding(.top)
                 

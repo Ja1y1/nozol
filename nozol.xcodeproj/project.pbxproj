@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69438DF92ADEE9D10020ADF6 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF62ADEE9D10020ADF6 /* RegistrationView.swift */; };
+		69438DFA2ADEE9D10020ADF6 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF62ADEE9D10020ADF6 /* RegistrationView.swift */; };
+		69438DFB2ADEE9D10020ADF6 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF62ADEE9D10020ADF6 /* RegistrationView.swift */; };
+		69438DFC2ADEE9D10020ADF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF72ADEE9D10020ADF6 /* LoginView.swift */; };
+		69438DFD2ADEE9D10020ADF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF72ADEE9D10020ADF6 /* LoginView.swift */; };
+		69438DFE2ADEE9D10020ADF6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF72ADEE9D10020ADF6 /* LoginView.swift */; };
+		69438DFF2ADEE9D10020ADF6 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF82ADEE9D10020ADF6 /* userView.swift */; };
+		69438E002ADEE9D10020ADF6 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF82ADEE9D10020ADF6 /* userView.swift */; };
+		69438E012ADEE9D10020ADF6 /* userView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69438DF82ADEE9D10020ADF6 /* userView.swift */; };
 		69450B1B2AD5D06800B3FF22 /* choiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69450B1A2AD5D06800B3FF22 /* choiceView.swift */; };
 		69776C8B2AD7581100D2FF5C /* designersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C8A2AD7581100D2FF5C /* designersView.swift */; };
 		69A713192AC0FFF5002C395A /* nozolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713182AC0FFF5002C395A /* nozolApp.swift */; };
@@ -17,7 +26,6 @@
 		69A713352AC0FFF6002C395A /* nozolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713342AC0FFF6002C395A /* nozolUITests.swift */; };
 		69A713372AC0FFF6002C395A /* nozolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713362AC0FFF6002C395A /* nozolUITestsLaunchTests.swift */; };
 		69A713802AC2120A002C395A /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A7137F2AC2120A002C395A /* welcomeView.swift */; };
-		69A713832AC2D28F002C395A /* searchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713822AC2D28F002C395A /* searchView.swift */; };
 		69A713872AC4B5D9002C395A /* ArchitectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A713862AC4B5D9002C395A /* ArchitectView.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69438DF62ADEE9D10020ADF6 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		69438DF72ADEE9D10020ADF6 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		69438DF82ADEE9D10020ADF6 /* userView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userView.swift; sourceTree = "<group>"; };
 		69450B1A2AD5D06800B3FF22 /* choiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceView.swift; sourceTree = "<group>"; };
 		69776C8A2AD7581100D2FF5C /* designersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designersView.swift; sourceTree = "<group>"; };
 		69A713152AC0FFF5002C395A /* nozol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nozol.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +64,6 @@
 		69A713342AC0FFF6002C395A /* nozolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolUITests.swift; sourceTree = "<group>"; };
 		69A713362AC0FFF6002C395A /* nozolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nozolUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		69A7137F2AC2120A002C395A /* welcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
-		69A713822AC2D28F002C395A /* searchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchView.swift; sourceTree = "<group>"; };
 		69A713862AC4B5D9002C395A /* ArchitectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,7 +154,9 @@
 			children = (
 				69A7131A2AC0FFF5002C395A /* ContentView.swift */,
 				69A7137F2AC2120A002C395A /* welcomeView.swift */,
-				69A713822AC2D28F002C395A /* searchView.swift */,
+				69438DF72ADEE9D10020ADF6 /* LoginView.swift */,
+				69438DF62ADEE9D10020ADF6 /* RegistrationView.swift */,
+				69438DF82ADEE9D10020ADF6 /* userView.swift */,
 				69A713862AC4B5D9002C395A /* ArchitectView.swift */,
 				69450B1A2AD5D06800B3FF22 /* choiceView.swift */,
 				69776C8A2AD7581100D2FF5C /* designersView.swift */,
@@ -284,10 +296,12 @@
 			files = (
 				69450B1B2AD5D06800B3FF22 /* choiceView.swift in Sources */,
 				69776C8B2AD7581100D2FF5C /* designersView.swift in Sources */,
-				69A713832AC2D28F002C395A /* searchView.swift in Sources */,
 				69A7131B2AC0FFF5002C395A /* ContentView.swift in Sources */,
+				69438DF92ADEE9D10020ADF6 /* RegistrationView.swift in Sources */,
 				69A713192AC0FFF5002C395A /* nozolApp.swift in Sources */,
 				69A713872AC4B5D9002C395A /* ArchitectView.swift in Sources */,
+				69438DFF2ADEE9D10020ADF6 /* userView.swift in Sources */,
+				69438DFC2ADEE9D10020ADF6 /* LoginView.swift in Sources */,
 				69A713802AC2120A002C395A /* welcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69438DFD2ADEE9D10020ADF6 /* LoginView.swift in Sources */,
 				69A7132B2AC0FFF6002C395A /* nozolTests.swift in Sources */,
+				69438DFA2ADEE9D10020ADF6 /* RegistrationView.swift in Sources */,
+				69438E002ADEE9D10020ADF6 /* userView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +321,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69438DFB2ADEE9D10020ADF6 /* RegistrationView.swift in Sources */,
 				69A713352AC0FFF6002C395A /* nozolUITests.swift in Sources */,
+				69438E012ADEE9D10020ADF6 /* userView.swift in Sources */,
+				69438DFE2ADEE9D10020ADF6 /* LoginView.swift in Sources */,
 				69A713372AC0FFF6002C395A /* nozolUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
