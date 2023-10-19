@@ -24,7 +24,7 @@ struct ContentView: View {
                 Text("اللهم اجعله منزلاً مباركاً")
                     .padding(.top)
                 
-                
+                    .padding()
                 Button("Get Strated!"){
                     //                TODO: any action to be added
                     isPressed = true

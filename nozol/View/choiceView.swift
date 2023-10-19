@@ -16,15 +16,16 @@ struct choiceView: View {
         
         //NavigationStack{
         
-        NavigationView{
+        // NavigationView{
         
         ZStack{
+            
             Color(.white)
             VStack(alignment:.listRowSeparatorLeading, spacing: 20){
           
                 Text("Choose what you need:")
                     .font(.title)
-                    .padding([.top, .leading])
+                   .padding([.top, .leading])
                 
                 ScrollView{
                     
@@ -56,16 +57,16 @@ struct choiceView: View {
             } .padding(50)
                 .background(Color(.systemGray6))
             
-        }
+        }  .ignoresSafeArea(.all)
     }
         //}.searchable(text: $searchText, isPresented: $searchIsActive)
 
-        .ignoresSafeArea(.all)
+      
             
         
         }
     
-}
+//}
 
 #Preview {
     choiceView()
